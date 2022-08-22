@@ -1,14 +1,15 @@
-# Project
+# Azure インフラストラクチャ:ガバナンス強化とセキュリティ対策ガイド
+本ドキュメントでは、Azure 仮想マシンを中心としたワークロードを安全に運用するために、運用モデルの考え方(ランディングゾーン、ハブアンドスポークトポロジ)と活用できるサービス ( Azure Firewall 、Defender for Cloud ) について紹介しています。ここで取り上げた製品・サービスの詳細および最新情報は、[製品ドキュメント](https://docs.microsoft.com)をご参照ください。なお、本ドキュメントの作成には、[BIPROGY株式会社](https://www.biprogy.com/)様にご協力をいただきました。
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
-
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## [はじめに](./chapter00.md)
+## [1章 ランディングゾーン](./chapter01.md)
+ランディングゾーンは、個人情報保護や、情報流出を未然に防ぐために企業ごとに存在し、時代の変化に応じて変化していくポリシーに柔軟に対応するために、有効的なアーキテクチャです。
+## [2章 ハブアンドスポークネットワークトポロジ](./chapter02.md)
+ハブアンドスポークは、一般的な通信またはセキュリティ要件を効率的に管理するためのネットワーク モデルです。 Azure サブスクリプションの制限の回避にも役立ちます。
+## [3章 Azure Firewall](./chapter03.md)
+Azure Firewall は Azure で実行されているワークロードを保護するクラウドネイティブなファイアウォールです。
+## [4章 Azure 内のサーバを保護する - Microsoft Defender for Servers](./chapter04.md)
+Microsoft Defender for Servers は、Azure だけでなく、AWS 、GCP 、オンプレミスといった Azure 以外で実行している Windows マシンと Linux マシンに脅威検出と高度な防御を追加することを可能とする Azure 上のサービスです。
 
 ## Contributing
 
